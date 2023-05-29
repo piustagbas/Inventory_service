@@ -3,7 +3,7 @@ import Home from './components/Home';
 import SocialLinks from './components/SocialLinks';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
-import Experience from './components/Experience';
+import Values from './components/Values';
 import Contact from './components/Contact';
 import User from './components/User';
 import { Routes, Route } from "react-router-dom";
@@ -23,7 +23,7 @@ function App() {
         <Route path={path} element={<Home/>} key={index}/>)}
       <Route path="/about" element={<About />} />
       <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/experience" element={<Experience />} />
+      <Route path="/values" element={<Values />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/user" element={<User />} />
 

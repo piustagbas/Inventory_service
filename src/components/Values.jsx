@@ -10,7 +10,7 @@ import h from "../assets/351-3519695_castle-rock-pharmacy-mortar-and-pestle-phar
 
 
 
-const Experience = () => {
+const Values = () => {
 
     const techs = [
         {
@@ -96,4 +96,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Values
