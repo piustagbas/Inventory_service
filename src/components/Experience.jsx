@@ -73,7 +73,7 @@ const Experience = () => {
                 border-gray-500 p-2 inline'>
                     Values
                     </p>
-                <p className='py-6'>These are the technologies I've worked with</p>
+                <p className='py-6'>These are our values</p>
             </div>
 
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 
