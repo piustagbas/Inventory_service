@@ -10,7 +10,7 @@ const User = () => {
     const [loginUser, setLoginUser] = useState({})
     const [loading, setLoading] = useState(false)
 
-    const [value, setValue] = useState('')
+  
 
     const handleClick = async() => {
         try{
@@ -21,9 +21,7 @@ const User = () => {
         }
     }
 
-    useEffect(() => {
-        setValue(localStorage.getItem('email'), [])
-    })
+
 
 
     const logout = () => {
@@ -44,7 +42,7 @@ const User = () => {
 
   return (
   <div>
-     {true ? <div name="user" 
+     {!loginUser ? <div name="user" 
     className='h-screen w-full bg-gradient-to-b 
     from-black to-gray-800 '>
         <div className='max-w-screen-lg mx-auto flex flex-col 
