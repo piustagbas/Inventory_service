@@ -18,7 +18,6 @@ function App() {
 
       <Routes>
 
-      {/* <Route path={["/", "/home"]} element={<Home />} /> */}
       {["/", "/home"].map((path, index) => 
         <Route path={path} element={<Home/>} key={index}/>)}
       <Route path="/about" element={<About />} />
